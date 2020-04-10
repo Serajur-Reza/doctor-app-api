@@ -82,4 +82,4 @@ app.post("/getAppointmentsByDate", (req,res)=>{
 
 
 const port= process.env.PORT || 4200
-app.listen(4200, console.log('thank you'))
+app.listen(port, console.log('thank you'))
